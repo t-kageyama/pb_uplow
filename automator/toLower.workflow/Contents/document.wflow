@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		set strClipBoard to clipboard info for string	if strClipBoard ≠ {} then		set lowerCaseString to do shell script "__YOUR_PRINT_PB_ABS_PAH__ -c l"		set the clipboard to lowerCaseString		set input to lowerCaseString	end if		return inputend run</string>
+					<string>on run {input, parameters}		set strClipBoard to clipboard info for string	if strClipBoard ≠ {} then		set lowerCaseString to do shell script "__YOUR_PRINT_PB_ABS_PATH__ -c l"		set the clipboard to lowerCaseString		set input to lowerCaseString	end if		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
